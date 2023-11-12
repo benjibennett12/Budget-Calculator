@@ -1,0 +1,102 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  background: linear-gradient(to left, #5f526e, #fff);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 600px;
+  margin: 1rem auto;
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background-color: #c19ce9;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+header div:first-child {
+  flex-basis: 100%;
+}
+header div:nth-child(n+2) {
+  flex-basis: 50%;
+}
+header .main-title {
+  font-size: x-large;
+}
+
+.transaction-action h3 {
+  font-weight: 500;
+}
+
+body h1 {
+  text-align: center;
+}
+
+body h3 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+form input {
+  width: 100%;
+}
+form .dollar-sign-input {
+  position: relative;
+}
+form .dollar-sign {
+  position: absolute;
+  top: 0;
+  left: 4px;
+  line-height: 1.5;
+  padding: 3px;
+}
+form .Name {
+  flex-basis: 100%;
+}
+form .Amount,
+form .Date {
+  display: flex;
+  flex-direction: row;
+  flex-basis: calc(50% - 5px);
+}
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #c19ce9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+form button:hover {
+  background-color: #877798;
+}
+form #clear {
+  background-color: #2d4ebc;
+}
+form #clear:hover {
+  background-color: #19087a;
+}
+
+ul {
+  list-style-type: none;
+}/*# sourceMappingURL=style.css.map */
